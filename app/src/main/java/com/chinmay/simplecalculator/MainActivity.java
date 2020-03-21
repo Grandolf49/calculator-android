@@ -108,9 +108,11 @@ public class MainActivity extends AppCompatActivity {
             Scriptable scriptable = rhino.initStandardObjects();
             result = rhino.evaluateString(scriptable, expression, "javascript", 1, null).toString();
         } catch (Exception e) {
-            result = e.getMessage();
+            result = "";
         }
-
+        if (!result.equals("")) {
+            result = String.format("%.3f", Double.valueOf(result));
+        }
         tv_output.setText(result);
     }
 
