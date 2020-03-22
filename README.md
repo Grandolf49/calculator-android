@@ -1,5 +1,6 @@
 # Calculator App  
 A simple calculator app with dark theme  
+<br/><br/>
 ![t](https://github.com/Grandolf49/calculator-android/blob/master/Preview/p1.jpg)     ![t](https://github.com/Grandolf49/calculator-android/blob/master/Preview/p2.jpg)     ![t](https://github.com/Grandolf49/calculator-android/blob/master/Preview/p3.jpg)  
 
 ## Contribute
